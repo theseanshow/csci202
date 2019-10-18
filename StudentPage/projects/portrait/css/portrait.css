@@ -1,0 +1,222 @@
+h1 {
+    color: #303136;
+    background-color: #85ecce;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+}
+body {
+    background-color: #303136;
+}
+.grid-container {
+    margin: 3rem 2rem;
+    padding: 7rem 0;
+    background-color: #85ecce;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 5rem 5rem 5rem;
+    grid-row-gap: 20px;
+    justify-items: center;
+}
+/*Row 1*/
+.box1{
+    width: 20px;
+    height: 100px;
+    background-color: #303136;
+}
+.a{
+    clip-path: url(#clipa);
+    background-color: #303136;
+    position: absolute;
+}
+a:hover.a{
+    background-color: #ffffff;
+}
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: #303136;
+    border-radius: 50%;
+    justify-self: start;
+}
+.b{
+    clip-path: url(#clipb);
+    background-color: #303136;
+    position: absolute;
+}
+a:hover.b{
+    background-color: #ffffff;
+}
+.box3{
+    width: 100px;
+    height: 100px;
+    background-color: #303136;
+    border-radius: 50%;
+    justify-self: end;
+}
+.c{
+    clip-path: url(#clipc);
+    background-color: #303136;
+    position: absolute;
+}
+a:hover.c{
+    background-color: #ffffff;
+}
+.box4{
+    width: 20px;
+    height: 100px;
+    background-color: #303136;
+}
+.d{
+    clip-path: url(#clipd);
+    background-color: #303136;
+    position: absolute;
+}
+a:hover.d{
+    background-color: #ffffff;
+}
+/*Row 2*/
+.box5{
+    width: 20px;
+    height: 100px;
+    background-color: #303136;
+}
+.e{
+    clip-path: url(#clipe);
+    background-color: #303136;
+    position: absolute;
+}
+a:hover.e{
+    background-color: #ffffff;
+}
+.box6{
+   width: 20px;
+   height: 20px;
+   background-color: #303136;
+   justify-self: end;
+}
+.f{
+    clip-path: url(#clipf);
+    background-color: #303136;
+    position: absolute;
+}
+a:hover.f{
+    background-color: #ffffff;
+}
+.box7{
+   width: 20px;
+   height: 20px;
+   background-color: #303136;
+   justify-self: start;
+}
+.g{
+    clip-path: url(#clipg);
+    background-color: #303136;
+    position: absolute;
+}
+a:hover.g{
+    background-color: #ffffff;
+}
+.box8{
+    width: 20px;
+    height: 100px;
+    background-color: #303136;
+}
+.h{
+    clip-path: url(#cliph);
+    background-color: #303136;
+    position: absolute;
+}
+a:hover.h{
+    background-color: #ffffff;
+}
+/*Rox 3*/
+.box9{
+    width: 20px;
+    height: 90px;
+    background-color: #303136;
+    transform: rotate(-45deg);
+    justify-self: end;
+    margin-right: 26px;
+}
+.i{
+    clip-path: url(#clipi);
+    background-color: #303136;
+    position: absolute;
+    transform: initial;
+}
+a:hover.i{
+    background-color: #ffffff;
+}
+.box10{
+    width: 150px;
+    height: 20px;
+    background-color: #303136;
+    margin-top: 5rem;
+}
+.j{
+    clip-path: url(#clipj);
+    background-color: #303136;
+    position: absolute;
+    margin-top: auto;
+}
+a:hover.j{
+    background-color: #ffffff;
+}
+.box11{
+    width: 150px;
+    height: 20px;
+    background-color: #303136;
+    margin-top: 5rem;
+}
+.k{
+    clip-path: url(#clipk);
+    background-color: #303136;
+    position: absolute;
+    margin-top: auto;
+}
+a:hover.k{
+    background-color: #ffffff;
+}
+.box12{
+    width: 20px;
+    height: 90px;
+    background-color: #303136;
+    transform: rotate(45deg);
+    justify-self: start;
+    margin-left: 26px;
+}
+.l{
+    clip-path: url(#clipl);
+    background-color: #303136;
+    position: absolute;
+    transform: initial;
+    margin-left: auto;
+}
+a:hover.l{
+    background-color: #ffffff;
+}
+h2{
+    background-color: #85ecce;
+    color: #303136;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+}
+small{
+    color: #85ecce;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1rem;
+}
+a:link{
+    color: #85ecce;
+}
+a:visited{
+    color: #ffffff;
+}
+a:hover{
+    color: #ED85A2;
+}
