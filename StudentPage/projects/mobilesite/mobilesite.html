@@ -4,6 +4,17 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/style.css">
         <title>The Hunt for Knowledge</title>
+        <script>
+                function password(){
+                    var password = 'Plants';
+                    if(this.document.login.pass.value == password){
+                        top.location.href="siteone.html";
+                    }
+                    else{
+                        window.alert("Incorrect. Try again.");
+                    }
+                }
+            </script>
     </head>
     <body>
         <div class="wrapper">
@@ -12,7 +23,33 @@
             </header>
             <main>
                 <div class="banner">
-                    <h2>Please follow Marie</h2>
+                    <h2>Take A Look Below</h2>
+                </div>
+                <div class="para">
+                    <p>Your first riddle:<br>
+                        <br>
+                        Have you ever turned,<br>
+                        And you realized,<br>
+                        You've hit a dead end?<br>
+                        <br>
+                        This dead end isn't dead,<br>
+                        In fact, there's life,<br>
+                        And it's closer than you think.<br>
+                        <br>
+                        To get to the place,<br>
+                        Don't take the right path,<br>
+                        And you'll see what I mean.<br>
+                        <br>
+                        What's in this room?
+                        <br>
+                    </p>
+                </div>
+                <div class="input">
+                    <form name="login">
+                        <input type="text" name="pass">
+                        <br>
+                        <input type="button" value="Submit" onclick="password(this.form)">
+                    </form>
                 </div> <!-- Look up how to make a correct password lead to a page-->
             </main>
         </div>
