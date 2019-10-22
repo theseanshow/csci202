@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <title>The Hunt for Knowledge | Elevator</title>
+        <script>
+                function password(){
+                    var password = 'Class';
+                    if(this.document.login.pass.value == password){
+                        top.location.href="mobilesite.html";
+                    }
+                    else{
+                        window.alert("Incorrect. Try again.");
+                    }
+                }
+            </script>
+    </head>
+    <body>
+        <div class="wrapper">
+            <header>
+                <h1>Marie's Mobile Scavenger Hunt</h1>
+            </header>
+            <main>
+                <div class="banner">
+                    <h2>You're Looking At The Elevator</h2>
+                </div>
+                <div class="para">
+                    <p>Your final riddle:<br>
+                        <br>
+                        Don't press anything,<br>
+                        Instead, turn around,<br>
+                        You've forgotten something.<br>
+                        <br>
+                        Head back,<br>
+                        It's more walking,<br>
+                        But I swear this is done.<br>
+                        <br>
+                        Look left,<br>
+                        Look right,<br>
+                        Please return.<br>
+                        <br>
+                        Where is the end?
+                        <br>
+                    </p>
+                </div>
+                <div class="input">
+                    <form name="login">
+                        <input type="text" name="pass"> 
+                        <br>
+                        <input type="button" value="Submit" onclick="password(this.form)">
+                    </form>
+                </div> <!-- Look up how to make a correct password lead to a page-->
+            </main>
+        </div>
+    </body>
+</html>

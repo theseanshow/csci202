@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <title>The Hunt for Knowledge | Plants</title>
+        <script>
+                function password(){
+                    var password = 'Elmo';
+                    if(this.document.login.pass.value == password){
+                        top.location.href="sitetwo.html";
+                    }
+                    else{
+                        window.alert("Incorrect. Try again.");
+                    }
+                }
+            </script>
+    </head>
+    <body>
+        <div class="wrapper">
+            <header>
+                <h1>Marie's Mobile Scavenger Hunt</h1>
+            </header>
+            <main>
+                <div class="banner">
+                    <h2>You're Now In The Plant Room</h2>
+                </div>
+                <div class="para">
+                    <p>Your second riddle:<br>
+                        <br>
+                        Sit down,<br>
+                        Relax,<br>
+                        Slide to the very end.<br>
+                        <br>
+                        Look to your right,<br>
+                        A strong, sturdy, plant,<br>
+                        Takes up the room.<br>
+                        <br>
+                        Look in front of you,<br>
+                        There's an unusual site,<br>
+                        Old, but new.<br>
+                        <br>
+                        What am I?
+                        <br>
+                    </p>
+                </div>
+                <div class="input">
+                    <form name="login">
+                        <input type="text" name="pass"> 
+                        <br>
+                        <input type="button" value="Submit" onclick="password(this.form)">
+                    </form>
+                </div> <!-- Look up how to make a correct password lead to a page-->
+            </main>
+        </div>
+    </body>
+</html>

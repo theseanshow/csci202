@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <title>The Hunt for Knowledge | ELMO</title>
+        <script>
+                function password(){
+                    var password = 'Elevator';
+                    if(this.document.login.pass.value == password){
+                        top.location.href="sitethree.html";
+                    }
+                    else{
+                        window.alert("Incorrect. Try again.");
+                    }
+                }
+            </script>
+    </head>
+    <body>
+        <div class="wrapper">
+            <header>
+                <h1>Marie's Mobile Scavenger Hunt</h1>
+            </header>
+            <main>
+                <div class="banner">
+                    <h2>You Found The ELMO</h2>
+                </div>
+                <div class="para">
+                    <p>Your third riddle:<br>
+                        <br>
+                        Stand up,<br>
+                        Walk out of this corner,<br>
+                        Turn right.<br>
+                        <br>
+                        Keep going,<br>
+                        I know this is long,<br>
+                        But you'll reach the end.<br>
+                        <br>
+                        You've made it,<br>
+                        But you're tired now,<br>
+                        You'd rather not take stairs.<br>
+                        <br>
+                        What am I?
+                        <br>
+                    </p>
+                </div>
+                <div class="input">
+                    <form name="login">
+                        <input type="text" name="pass"> 
+                        <br>
+                        <input type="button" value="Submit" onclick="password(this.form)">
+                    </form>
+                </div> <!-- Look up how to make a correct password lead to a page-->
+            </main>
+        </div>
+    </body>
+</html>
